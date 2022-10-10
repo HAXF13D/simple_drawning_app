@@ -28,6 +28,7 @@ h1 {
     background: #6C757D;
 }
 
+
 .choose-box{
     background-color: #6C757D;
     height: 50px;
@@ -37,30 +38,78 @@ h1 {
     left: 0;
 }
 
-#toolbar {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    width: 70px;
-    background-color: #202020;
+.side-bar-traingle-3{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 52px;
+    top: 112px;
 }
 
-#toolbar * {
-    margin-bottom: 6px;
+.side-bar-box-3{
+    position: absolute;
+    width: 172px;
+    height: 68px;
+    left: 67px;
+    top: 91px;
+    background: #6C757D;
+    border-radius: 8px;
 }
 
-#toolbar label {
-    font-size: 12px;
+.side-bar-box-3 input{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    left: 119px;
+    top: 10px;
+    border-radius: 8px;
+}
+.side-bar-box-3 input:focus{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
 }
 
-#toolbar input {
-    width: 100%;
+
+p{
+    padding-left: 9px;
+    padding-top: 9px;
+    margin-top: 0px;
+    color: black;
+    font-size: 16px;
 }
 
-#toolbar button {
-    background-color: #1565c0;
-    border: none;
-    border-radius: 4px;
-    color:white;
-    padding: 2px;
+.side-bar-traingle-4{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 52px;
+    top: 162px;
+}
+
+.side-bar-box-4{
+    position: absolute;
+    width: 172px;
+    height: 68px;
+    left: 67px;
+    top: 141px;
+    background: #6C757D;
+    border-radius: 8px;
+}
+
+.side-bar-box-4 input{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    left: 119px;
+    top: 10px;
+    border-radius: 8px;
+}
+.side-bar-box-4 input:focus{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+#ch-2-palette{
+    margin: 0;
 }
